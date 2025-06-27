@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import HeroSlider from "@/components/HeroSlider";
@@ -9,7 +8,7 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <Header />
       <HeroSlider />
-      
+
       {/* Welcome Message */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
@@ -18,8 +17,8 @@ const Index = () => {
               أهلاً وسهلاً بكم في جمعية الشباب المواطن
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              نحن ملتزمون بتنمية الشباب وتعزيز القيم المواطنة في مجتمعنا 
-              بمنطقة راس العين، سطات.
+              نحن ملتزمون بتنمية الشباب وتعزيز القيم المواطنة في مجتمعنا بمنطقة
+              راس العين، سطات.
             </p>
           </div>
         </div>
@@ -29,37 +28,24 @@ const Index = () => {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">فيديو تعريفي</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-6">
+              فيديو تعريفي
+            </h2>
             <div className="w-24 h-1 bg-gradient-to-l from-primary to-secondary mx-auto mb-8"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               شاهد فيديو تعريفي عن جمعيتنا وأنشطتنا المختلفة
             </p>
           </div>
-          
+
           <div className="max-w-4xl mx-auto animate-scale-up">
             <div className="relative rounded-lg overflow-hidden shadow-xl bg-gray-200 aspect-video">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center text-gray-600">
-                  <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-8 h-8 text-white mr-1" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.841z"/>
-                    </svg>
-                  </div>
-                  <p className="text-lg font-medium">سيتم إضافة الفيديو قريباً</p>
-                  <p className="text-sm text-gray-500 mt-2">Video placeholder - سيتم استبداله بالفيديو الفعلي</p>
-                </div>
-              </div>
-              {/* Uncomment and replace with actual video when available */}
-              {/* 
-              <video 
-                className="w-full h-full object-cover"
-                controls
-                poster="/path-to-video-thumbnail.jpg"
-              >
-                <source src="/path-to-video.mp4" type="video/mp4" />
+              <video className="w-full h-full object-cover" controls>
+                <source
+                  src="/uploads/home/VID-20250626-WA0020.mp4"
+                  type="video/mp4"
+                />
                 متصفحك لا يدعم تشغيل الفيديو
-              </video> 
-              */}
+              </video>
             </div>
           </div>
         </div>
@@ -74,7 +60,9 @@ const Index = () => {
               <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-white font-bold text-2xl">من</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">من نحن</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                من نحن
+              </h3>
               <p className="text-gray-600 mb-6">
                 اكتشف رسالتنا وقيمنا والتقِ بفريق الأعضاء المتفانين لدينا.
               </p>
@@ -87,11 +75,16 @@ const Index = () => {
             </div>
 
             {/* Partners Preview */}
-            <div className="text-center animate-scale-up bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300" style={{ animationDelay: '0.1s' }}>
+            <div
+              className="text-center animate-scale-up bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
+              style={{ animationDelay: "0.1s" }}
+            >
               <div className="w-16 h-16 bg-gradient-to-br from-secondary to-accent rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-white font-bold text-2xl">ش</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">شركاؤنا</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                شركاؤنا
+              </h3>
               <p className="text-gray-600 mb-6">
                 استكشف تعاوننا مع المؤسسات والمنظمات المحلية.
               </p>
@@ -104,11 +97,16 @@ const Index = () => {
             </div>
 
             {/* Contact Preview */}
-            <div className="text-center animate-scale-up bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300" style={{ animationDelay: '0.2s' }}>
+            <div
+              className="text-center animate-scale-up bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
+              style={{ animationDelay: "0.2s" }}
+            >
               <div className="w-16 h-16 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-white font-bold text-2xl">ت</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">تواصل معنا</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                تواصل معنا
+              </h3>
               <p className="text-gray-600 mb-6">
                 تواصل معنا للانضمام إلى جمعيتنا أو لأي استفسار.
               </p>
