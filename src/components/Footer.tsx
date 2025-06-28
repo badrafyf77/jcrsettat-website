@@ -60,7 +60,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-sm opacity-80">
-            © 2024 جمعية الشباب المواطن راس العين سطات. جميع الحقوق محفوظة.
+            © 2025 جمعية الشباب المواطن راس العين سطات. جميع الحقوق محفوظة.
           </p>
         </div>
       </div>
